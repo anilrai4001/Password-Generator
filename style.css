@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-weight: bold;
+}
+
+.container{
+    border: 1px solid black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 80px #ccc;
+    background-color: #8a93aa;
+    color: white;
+}
+
+.container h1{
+    font-size: 1.5rem;
+    margin-block: 1rem;
+    text-align: center;
+}
+
+.inputBox{
+    position: relative;
+}
+
+.inputBox span{
+    position: absolute;
+    top: 1.2rem;
+    right: 1rem;
+    color: black;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin:0;
+}
+
+.passBox{
+    background: white;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 0.5rem;
+    margin-block: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.row{
+    margin-block: 0.5rem;
+    display: flex;
+}
+
+
+.row p, .row label{
+    flex-basis: 100%;
+    font-size: 1rem;
+}
+
+
+.genBtn{
+    border:none;
+    outline: none;
+    color: rgb(178, 255, 127);
+    background-color: rgb(1, 68, 1);
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-block: 1rem;
+    cursor: pointer;
+}
+.genBtn:hover{
+    background-color: rgb(2, 114, 2) ;
+}
